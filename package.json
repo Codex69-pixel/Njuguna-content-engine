@@ -1,0 +1,19 @@
+{
+  "name": "njuguna-content-engine",
+  "version": "1.0.0",
+  "description": "Autonomous short-video content engine for Njuguna Devs. Generates videos, you approve them on WhatsApp.",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node scripts/check.js",
+    "make": "node scripts/make-now.js",
+    "selftest": "node scripts/selftest.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
